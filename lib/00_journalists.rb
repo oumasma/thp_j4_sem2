@@ -42,11 +42,16 @@ puts journalists.index ("@epenser")
 
 puts "Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)"
 print"> "
-
-n = 0  
-	journalists.each do |handle|
-		if handle.length == 1
-			n += 1
+hashe = {}
+count_chars = 0 
+count_handle 
+	journalists.each do |i|
+		i.delete!("@")
+		chars= i.split ('')
+		chars.each do |c|
+			count_chars += 1
 		end
+		hashe[i] = count_chars
+		count_chars
 	end
-	puts "#{n} handle avec #{handle.length caractère}"
+	puts "Voici les handles contenant #{nbchars}" 

@@ -41,7 +41,7 @@ def best_but_under_sixthousand(combined_hash)
 	end
 end
 
-#pas eu le temps de finir à cause du décalage horaire 
+#pas eu le temps de finir à cause du décalage horaire sorry
 
 
 

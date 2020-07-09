@@ -54,4 +54,4 @@ count_handle
 		hashe[i] = count_chars
 		count_chars
 	end
-	puts "Voici les handles contenant #{nbchars}" 
+	puts "Voici les handles contenant #{nbchars}" #pas fini

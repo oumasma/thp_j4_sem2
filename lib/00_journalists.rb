@@ -44,7 +44,7 @@ puts "Sors-moi une répartition des handle par taille de ces derniers (nombre de
 print"> "
 hashe = {}
 count_chars = 0 
-count_handle 
+count_handle = 0 
 	journalists.each do |i|
 		i.delete!("@")
 		chars= i.split ('')
@@ -54,4 +54,4 @@ count_handle
 		hashe[i] = count_chars
 		count_chars
 	end
-	puts "Voici les handles contenant #{nbchars}" #pas fini
+	#pas fini puts "Voici les handles contenant #{nbchars}" 
